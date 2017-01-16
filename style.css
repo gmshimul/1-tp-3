@@ -1,0 +1,46 @@
+.login input{
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	width: 55%;
+	height: 35px;
+}
+#btn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+.login img{
+	width: 140px;
+	height: 140px;
+	margin-left: 100px;
+}
+.note{
+	color: red;
+}
+.instruction{
+	color: darkblue;
+}
+.comment_box textarea{
+	width: 80%;
+}
+.comment_box img{
+	width: 100%;
+}
+.comment_box p{
+	/*border: 1px solid grey;*/
+	border-bottom: 1px solid lightgrey;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: lavender;
+}
+
+/*Portfolio part*/
+.portfolio i{
+	font-size: 50px;
+}
+.portfolio h3{
+	display: inline-block;
+	margin: 15px 0 15px 15px;
+	font-size: 36px;
+}

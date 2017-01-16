@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQuery One</title>
+	<meta name="description" content="">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="login">
+				<form class="form" method="post" action="#">
+					<img src="himu.jpg" class="img-responsive img-circle">
+					<input id="mail" class="mail" type="email" action="post" name="mail" placeholder="Email/Username"><br>
+					<input id="pass" class="pass" type="password" name="pass" placeholder="Password">
+
+					<span>Password strength :</span>
+					<span ><b id="strength"></b></span><br>
+					<button class="btn btn-md" id="btn">Submit</button><br>
+					<span class="note"><b>Note : </b></span>
+					<span class="instruction">Try this Email and Password for login <b>Email :</b> gm.shimul@outlook.com
+					<b>Password :</b> Martuza007</span>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2" >
+			<div class="comment_box">
+				<img src="rifat.jpg" class="img-responsive img-thumbnail">
+				<p id="comment"><!-- <i class="icon-user-md"></i> --></p>
+				<textarea id="comments" placeholder="Write your comment here"></textarea><br>
+				<button class="btn btn-lg cmnt_btn" id="cmnt_btn">Comment</button>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio">
+		<div class="row">
+			<div class="col-md-7">
+				<span><i class="icon-suitcase"></i></span>
+				<h3>Our Awesome Work</h3>
+			</div>
+			<div class="col-md-4 col-md-offset-1" >
+				<button id="all" class="btn btn-md">All</button>
+				<button id="web" class="btn btn-md">Web Design</button>
+				<button id="android_btn" class="btn btn-md">Android</button>
+				<button id="joomla_btn" class="btn btn-md">Joomla</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<img id="web_design" src="portfolio1.jpg" class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="android" src="portfolio2.jpg " class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="web_design" src="portfolio3.jpg" class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="android" src="portfolio4.jpg " class="img-responsive portfolio_image ">
+			</div>
+		</div>
+		<div class="row p_second">
+			<div class="col-md-3">
+				<img id="android" src="portfolio5.jpg" class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="joomla" src="portfolio6.jpg " class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="web_design" src="portfolio7.jpg " class="img-responsive portfolio_image">
+			</div>
+			<div class="col-md-3">
+				<img id="joomla" src="portfolio8.jpg " class="img-responsive portfolio_image">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<!-- Customized js -->
+	<script src="script.js"></script>
+</body>
+</html>
